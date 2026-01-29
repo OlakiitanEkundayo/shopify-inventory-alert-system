@@ -38,7 +38,8 @@ return [
     'shopify' => [
         'shop_domain' => env('SHOPIFY_APP_URL'),
         'access_token' => env('SHOPIFY_ACCESS_TOKEN'),
-        'api_version' => env('SHOPIFY_API_VERSION', '2024-01')
+        'api_version' => env('SHOPIFY_API_VERSION', '2024-01'),
+        'webhook_secret' => env('SHOPIFY_WEBHOOK_SECRET'),
     ],
 
 ];
